@@ -22,6 +22,6 @@ Route::get('/tournaments', [TournamentController::class, 'index'])->name('tourna
 Route::get('/tournaments/create', [TournamentController::class, 'create'])->name('tournaments.create');
 Route::post('/tournaments', [TournamentController::class, 'store'])->name('tournaments.store');
 Route::get('/tournaments/{tournament}/edit', [TournamentController::class, 'edit'])->name('tournaments.edit');
-Route::put('/tournaments/{tournament}', [TournamentController::class, 'update'])->name('tournaments.update');
+Route::put('/tournaments/{tournament}', [TournamentController::class, 'update'])->name('tournaments.update'); 
 
 Route::get('/teams', [TeamController::class, 'index'])->name('teams.index');
