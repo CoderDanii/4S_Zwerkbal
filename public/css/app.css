@@ -18,6 +18,7 @@ header{
     grid-gap: 2rem;
 }
 
+
 nav{
     min-width: 50%;
     max-width: 500px;
@@ -84,4 +85,42 @@ label{
 
 .form-control{
     min-width: 200px;
+}
+
+.stats-container{
+    display: flex;
+
+}
+.stats-container .first{
+    border: solid 2px yellow;
+    padding: 120px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: larger;
+    
+
+}
+
+.stats-container .second{
+    border: solid 2px yellow;
+    padding: 120px;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    
+
+}
+.stats-container .third{
+    border: solid 2px yellow;
+    padding: 120px;
+    text-align: center;
+    
+}
+
+
+.stats-sub-container{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
 }

@@ -27,4 +27,4 @@
         @endforeach
     </table>
     
-@endsection
+@endsectionx
